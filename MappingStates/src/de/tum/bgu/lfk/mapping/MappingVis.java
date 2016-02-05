@@ -58,20 +58,20 @@ public class MappingVis extends PApplet {
 
 		frameRate(10);
 		smooth();
+		
+		mapImage = loadImage("C:/Users/mjahnke/git/MappingStates/MappingStates/data/map.png");
 
-		mapImage = loadImage("D:/workspace/MappingStates/data/map.png");
-
-		locationTable = loadTable("D:/workspace/MappingStates/data/locations.tsv");
+		locationTable = loadTable("C:/Users/mjahnke/git/MappingStates/MappingStates/data/locations.tsv");
 		rowCount = locationTable.getRowCount();
 
-		dataTable = loadTable("D:/workspace/MappingStates/data/random.tsv");
+		dataTable = loadTable("C:/Users/mjahnke/git/MappingStates/MappingStates/data/random.tsv");
 
 		//setting up the bar chart
 		bc = new BarChart(this, 0, height - 100, width, 100);
 		bc.setData(dataTable, 0, 1);
 
 		//read the name Table
-		nameTable = loadTable("D:/workspace/MappingStates/data/names.tsv");
+		nameTable = loadTable("C:/Users/mjahnke/git/MappingStates/MappingStates/data/names.tsv");
 		
 		//find min and max in the data table
 		for (int row = 0; row < rowCount; row++) {
@@ -91,9 +91,9 @@ public class MappingVis extends PApplet {
 		offsetY = 50;
 
 		//Load different fonts
-		copyFont = loadFont("D:/workspace/MappingStates/data/ArialMT-9.vlw");
-		font = loadFont("D:/workspace/MappingStates/data/ArialMT-12.vlw");
-		titleFont = loadFont("D:/workspace/MappingStates/data/ArialMT-25.vlw");
+		copyFont = loadFont("C:/Users/mjahnke/git/MappingStates/MappingStates/data/ArialMT-9.vlw");
+		font = loadFont("C:/Users/mjahnke/git/MappingStates/MappingStates/data/ArialMT-12.vlw");
+		titleFont = loadFont("C:/Users/mjahnke/git/MappingStates/MappingStates/data/ArialMT-25.vlw");
 
 		//Setup the Menu-Buttons 
 		v = new PButton(width - 55, 70, 95, 25, this);
