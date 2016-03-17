@@ -238,7 +238,7 @@ public class MappingVis extends PApplet {
 	}
 
 	public void mouseClicked(){
-		if(v.isInside(mouseX, mouseY)){
+		if(v.contains(mouseX, mouseY)){
 			v.setChecked(true);
 			a.setChecked(false);
 			b.setChecked(false); 
@@ -248,7 +248,7 @@ public class MappingVis extends PApplet {
 			f.setChecked(false);
 			g.setChecked(false);
 		}
-		else if (a.isInside(mouseX, mouseY)) {
+		else if (a.contains(mouseX, mouseY)) {
 			v.setChecked(false);
 			a.setChecked(true);
 			b.setChecked(false); 
@@ -258,7 +258,7 @@ public class MappingVis extends PApplet {
 			f.setChecked(false);
 			g.setChecked(false);
 		}
-		else if (b.isInside(mouseX, mouseY)) {
+		else if (b.contains(mouseX, mouseY)) {
 			v.setChecked(false);
 			a.setChecked(false);
 			b.setChecked(true);
@@ -268,7 +268,7 @@ public class MappingVis extends PApplet {
 			f.setChecked(false);
 			g.setChecked(false);
 		}
-		else if (c.isInside(mouseX, mouseY)) {
+		else if (c.contains(mouseX, mouseY)) {
 			v.setChecked(false);
 			a.setChecked(false);
 			b.setChecked(false);
@@ -278,7 +278,7 @@ public class MappingVis extends PApplet {
 			f.setChecked(false); 
 			g.setChecked(false);
 		}
-		else if (d.isInside(mouseX, mouseY)) {
+		else if (d.contains(mouseX, mouseY)) {
 			v.setChecked(false);
 			a.setChecked(false);
 			b.setChecked(false);
@@ -288,7 +288,7 @@ public class MappingVis extends PApplet {
 			f.setChecked(false);
 			g.setChecked(false);
 		}
-		else if (e.isInside(mouseX, mouseY)) {
+		else if (e.contains(mouseX, mouseY)) {
 			v.setChecked(false);
 			a.setChecked(false);
 			b.setChecked(false);
@@ -298,7 +298,7 @@ public class MappingVis extends PApplet {
 			f.setChecked(false);
 			g.setChecked(false);
 		}
-		else if (f.isInside(mouseX, mouseY)) {
+		else if (f.contains(mouseX, mouseY)) {
 			v.setChecked(false);
 			a.setChecked(false);
 			b.setChecked(false);
@@ -308,7 +308,7 @@ public class MappingVis extends PApplet {
 			f.setChecked(true); 
 			g.setChecked(false);
 		}
-		else if (g.isInside(mouseX, mouseY)) {
+		else if (g.contains(mouseX, mouseY)) {
 			v.setChecked(false);
 			a.setChecked(false);
 			b.setChecked(false);
