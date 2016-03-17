@@ -96,38 +96,76 @@ public class MappingVis extends PApplet {
 		titleFont = loadFont("C:/Users/mjahnke/git/MappingStates/MappingStates/data/ArialMT-25.vlw");
 
 		//Setup the Menu-Buttons 
-		v = new PButton(width - 55, 70, 95, 25, this);
-		v.setButtonLabel("Draw Values 0", font, 100, 255);
-		v.setButtonLook(150, 230, null, 160);
+		v = new PButton(width - 55, 70, "Draw values 0", this);
+		v.setAdaptToLabel(false);
+		v.setSize(95, 25);
+		v.setFont(font);
+		v.setTextStyling(100, 255);
+		v.setStyling(150, 230, null, 160);
 		v.setChecked(true);
 
-		a = new PButton(width - 55, 105, 95, 25, this);
-		a.setButtonLabel("Draw Values 1", font, 100, 255);
-		a.setButtonLook(150, 230, null, 160);
+		a = new PButton(width - 55, 105, "Draw values 1", this);
+		a.setAdaptToLabel(false);
+		a.setSize(95, 25);
+		a.setFont(font);
+		a.setTextStyling(100, 255);
+		a.setStyling(150, 230, null, 160);
+		//a.setButtonLabel("Draw Values 1", font, 100, 255);
+		//a.setButtonLook(150, 230, null, 160);
 
-		b = new PButton(width - 55, 140, 95, 25, this);
-		b.setButtonLabel("Draw Values 2", font, 100, 255);
-		b.setButtonLook(150, 230, null, 160);
+		b = new PButton(width - 55, 140, "Draw values 2", this);
+		b.setAdaptToLabel(false);
+		b.setSize(95, 25);
+		b.setFont(font);
+		b.setTextStyling(100, 255);
+		b.setStyling(150, 230, null, 160);
+		//b.setButtonLabel("Draw Values 2", font, 100, 255);
+		//b.setButtonLook(150, 230, null, 160);
 
-		c = new PButton(width - 55, 175, 95, 25, this);
-		c.setButtonLabel("Draw Values 3", font, 100, 255);
-		c.setButtonLook(150, 230, null, 160);
+		c = new PButton(width - 55, 175, "Draw values 3", this);
+		c.setAdaptToLabel(false);
+		c.setSize(95, 25);
+		c.setFont(font);
+		c.setTextStyling(100, 255);
+		c.setStyling(150, 230, null, 160);
+		//c.setButtonLabel("Draw Values 3", font, 100, 255);
+		//c.setButtonLook(150, 230, null, 160);
 
-		d = new PButton(width - 55, 210, 95, 25, this);
-		d.setButtonLabel("Draw Values 4", font, 100, 255);
-		d.setButtonLook(150, 230, null, 160);
+		d = new PButton(width - 55, 210, "Draw values 4", this);
+		d.setAdaptToLabel(false);
+		d.setSize(95, 25);
+		d.setFont(font);
+		d.setTextStyling(100, 255);
+		d.setStyling(150, 230, null, 160);
+		//d.setButtonLabel("Draw Values 4", font, 100, 255);
+		//d.setButtonLook(150, 230, null, 160);
 
-		e = new PButton(width - 55, 245, 95, 25, this);
-		e.setButtonLabel("Draw Values 5", font, 100, 255);
-		e.setButtonLook(150, 230, null, 160);
+		e = new PButton(width - 55, 245, "Draw values 5", this);
+		e.setAdaptToLabel(false);
+		e.setSize(95, 25);
+		e.setFont(font);
+		e.setTextStyling(100, 255);
+		e.setStyling(150, 230, null, 160);
+		//e.setButtonLabel("Draw Values 5", font, 100, 255);
+		//e.setButtonLook(150, 230, null, 160);
 
-		f = new PButton(width - 55, 280, 95, 25, this);
-		f.setButtonLabel("Draw Values 6", font, 100, 255);
-		f.setButtonLook(150, 230, null, 160);
+		f = new PButton(width - 55, 280, "Draw values 6", this);
+		f.setAdaptToLabel(false);
+		f.setSize(95, 25);
+		f.setFont(font);
+		f.setTextStyling(100, 255);
+		f.setStyling(150, 230, null, 160);
+		//f.setButtonLabel("Draw Values 6", font, 100, 255);
+		//f.setButtonLook(150, 230, null, 160);
 
-		g = new PButton(width - 55, 315, 95, 25, this);
-		g.setButtonLabel("Draw Values 7", font, 100, 255);
-		g.setButtonLook(150, 230, null, 160);
+		g = new PButton(width - 55, 315, "Draw values 7", this);
+		g.setAdaptToLabel(false);
+		g.setSize(95, 25);
+		g.setFont(font);
+		g.setTextStyling(100, 255);
+		g.setStyling(150, 230, null, 160);
+		//g.setButtonLabel("Draw Values 7", font, 100, 255);
+		//g.setButtonLook(150, 230, null, 160);
 
 	}
 
