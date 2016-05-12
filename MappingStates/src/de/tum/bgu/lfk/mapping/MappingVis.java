@@ -1,11 +1,11 @@
 package de.tum.bgu.lfk.mapping;
 
+import mj.processing.button.PButton;
 import processing.core.PApplet;
 import processing.core.PFont;
 import processing.core.PImage;
 import processing.data.Table;
 import processing.data.TableRow;
-import src.de.tum.bgu.lfk.puicomponents.button.PButton;
 import src.de.tum.bgu.lfk.puicomponents.charts.BarChart;
 
 public class MappingVis extends PApplet {
